@@ -3982,6 +3982,17 @@ input[type=button].btn-block {
   font-size: 1.2rem;
 }
 
+.title-search {
+  margin-left: 100px;
+}
+
+.title-search h3 {
+  font-size: 2rem;
+}
+#search-section {
+  margin-top: 50px;
+}
+
 .btn-user:hover {
   background-color: white;
   color: black;
