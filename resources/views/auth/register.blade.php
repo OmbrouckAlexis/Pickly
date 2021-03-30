@@ -45,10 +45,8 @@
                                         <strong>{{ $message }}</strong>
                                     </span>
                                 @enderror
-                                <label class="label-form">Charger une image :</label><br/>
-                                <input class="btn-file" type="file" name="avatar" id="avatar"></input><br/>
 
-                                <button type="submit" class="btn-user">
+                                <button id="btn-user-register" type="submit" class="btn-user">
                                     {{ __('Register') }}
                                 </button>
                     </form>

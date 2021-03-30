@@ -14,7 +14,7 @@
 </div>
 
 @foreach($users as $u)
-    <div>
+    <div id="user-search">
         <h2><a href="/user/{{$u->id}}">{{$u->name}} </a></h2>
         <h3>{{$u->ILikeThem()->count()}} Abonnements</h3>
         <h3>{{$u->TheyLikeMe()->count()}} Abonnés</h3>
